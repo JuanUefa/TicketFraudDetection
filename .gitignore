@@ -1,0 +1,25 @@
+# Python virtual environments
+snowpark_venv/
+snow_cli_venv/
+ 
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# Environment variables
+.env
+ 
+# Snow CLI project cache
+snowflake/.snowflake/
+ 
+# VS Code settings (optional, if you want teammates to set their own)
+.vscode/
+ 
+# Package and wheel artifacts
+*.egg-info/
+dist/
+build/
+*.whl
+
+commands.txt
